@@ -1,0 +1,125 @@
+
+.container {
+  width: 220px;
+  height: 120px;
+  background-color:gray;
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+.time{
+  position:absolute;
+  bottom:5px;
+  right:5px;
+  font-size:10px;
+  background-color:black;
+  color:white;
+  font-family:Arial;
+  padding: 2px 4px;
+  border-radius:2px;
+}
+.box {
+  background-color:black;
+  position: absolute;
+top:-10px;
+  left:-10px;
+  color:white;
+  font-size: 12px;
+  height:20px;
+  width:20px;
+  padding-top:1.5px;
+  padding-left: 1.5px;
+  padding-right: 1.5px;
+  padding-bottom: 1.5px;
+  border-radius: 50%;
+  display: flex;
+align-items: center;
+font-family:Arial, Helvetica;
+justify-content: center;
+
+}
+.container2{
+  position: absolute;
+  top: 300px;
+  left: 650px;
+  width:194px;
+  height:259.5px;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sold{
+background-color: black;
+color:white;
+font-size: 12px;
+position:absolute;
+top:7px;
+right:0px;
+font-family:Roboto, Arial;
+width:60px;
+padding-top:1.5px;
+padding-left: 1.5px;
+padding-right: 1.5px;
+padding-bottom: 1.5px;
+padding :6px 10px;
+font-size:14px;
+}
+button{
+padding: 6px 14px;
+background-color:rgb(85, 201, 236);
+color:rgb(245, 250, 249);
+font-size:12px;
+border-width:0.4mm;
+border-radius:5px;
+border:none;
+
+font-family:Roboto, Arial;
+font-weight:normal;
+position:absolute;
+bottom:35px;
+right:55px;
+
+cursor:pointer;
+transition: transform 0.3s ease-in-out;
+}
+.container2:hover button {
+transform: translateY(-5px);
+}
+.container3:hover button {
+transform: translateY(-5px);
+}
+
+
+.white-1{
+background-color:rgb(255, 255, 255,0);
+width:20px;
+height:20px;
+position:absolute;
+bottom:0px;
+right:0px;
+height:90px;
+width:194px;
+transition:background-color 0.3s ease-in-out;
+
+}
+.container2:hover .white-1{
+background-color:rgb(255, 255, 255,0.3);
+}
+.container3:hover .white-1{
+background-color:rgb(255, 255, 255,0.3);
+}
+.container3{
+  position: absolute;
+  top:300px;
+  left: 400px;
+  width:194px;
+  height:259.5px;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+object-fit:fill;
+height:259px;
+width:195px;
+}
+
